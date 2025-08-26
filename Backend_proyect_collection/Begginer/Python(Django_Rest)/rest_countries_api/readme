@@ -1,0 +1,13 @@
+This RESTful API provides detailed information about all the countries in the world. The data is obtained using web scraping techniques, extracting information directly from reliable web pages that list countries and their relevant data.
+
+Features
+
+Complete information of all the countries in the world.
+
+Data updated through web scraping to keep the information current.
+
+Easy integration with applications and systems that need country data.
+
+Responses in JSON format to facilitate data consumption.
+
+Endpoints to get lists of countries, details by country, and more.

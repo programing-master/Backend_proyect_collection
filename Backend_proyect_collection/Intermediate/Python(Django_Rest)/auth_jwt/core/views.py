@@ -16,7 +16,9 @@ def login(request):
         return Response({"error": "Invalid Password"}, status=status.HTTP_400_BAD_REQUEST)
     token, created = Token.objects.get_or_create(user=user)
     serializer = UserSerializers(instance=user)
-    return Response({'Token': token.key, 'user': serializer.data}, status=status.HTTP_202_ACCEPTED)
+    response = Response({'Token': token.key, 'user': serializer.data}, status=status.HTTP_201_CREATED)
+    response['Authorization'] = 'Token ' + token.key
+    return response
 
 @api_view(['POST'])
 def register(request):
@@ -27,7 +29,9 @@ def register(request):
         user.set_password(serializer.data['password'])
         user.save()
         token = Token.objects.create(user=user)
-        return Response({'token': token.key, 'user': serializer.data}, status=status.HTTP_201_CREATED)
+        response = Response({'Token': token.key, 'user': serializer.data}, status=status.HTTP_201_CREATED)
+        response['Authorization'] = 'Token ' + token.key
+        return response
     return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 @api_view(['POST'])
@@ -38,7 +42,11 @@ def profile(request):
     token, created = Token.objects.get_or_create(user=user)
     serializer = UserSerializers(user)
     
-    response = Response(serializer.data, status=status.HTTP_200_OK)
-    # Incluye el token en las cabeceras de la respuesta
+    response = Response({
+        "user": serializer.data,
+        "Token": token.key
+    }, status=status.HTTP_200_OK)
+    
     response['Authorization'] = 'Token ' + token.key
+    
     return response

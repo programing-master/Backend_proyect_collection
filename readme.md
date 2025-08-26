@@ -1,41 +1,42 @@
-Bienvenido al repositorio comunitario de proyectos backend, diseñado para que desarrolladores de todos los niveles puedan practicar, aprender y compartir experiencias. Aquí encontrarás proyectos organizados en tres niveles: Beginner (Principiante), Intermediate (Intermedio) y Advanced (Avanzado).
+Welcome to the community backend projects repository, designed for developers of all levels to practice, learn, and share experiences. Here you will find projects organized into three levels: Beginner, Intermediate, and Advanced.
 
-🛠 ¿Qué encontrarás aquí?
-Proyectos prácticos y completos, con código limpio y documentado.
+🛠 What will you find here?
+Practical and complete projects with clean and documented code.
 
-Uso de tecnologías y frameworks populares (Django, Django REST Framework, Node.js, etc.).
+Use of popular technologies and frameworks (Django, Django REST Framework, Node.js, etc.).
 
-Retos y ejercicios para mejorar tu lógica y habilidades backend.
+Challenges and exercises to improve your backend logic and skills.
 
-Buenas prácticas en desarrollo, manejo de bases de datos, autenticación, APIs REST, pruebas y despliegue.
+Best practices in development, database management, authentication, REST APIs, testing, and deployment.
 
-Colaboración abierta para que cualquier persona pueda contribuir, desde principiantes hasta expertos.
+Open collaboration so anyone can contribute, from beginners to experts.
 
-🚦 Niveles de dificultad
-Nivel	Descripción	Ideal para
-Beginner	Proyectos básicos para quienes empiezan.	Nuevos en backend y programación
-Intermediate	Proyectos con funcionalidades más completas.	Que tienen experiencia básica y quieren más retos
-Advanced	Proyectos desafiantes con arquitectura compleja	Desarrolladores avanzados buscando perfeccionar sus habilidades
-📚 Cómo usar este repositorio
-Explora la carpeta del nivel que prefieras (beginner/, intermediate/, advanced/).
+🚦 Difficulty levels
 
-Escoge un proyecto y clónalo localmente.
+Level	Description	Ideal for
+Beginner	Basic projects for those just starting out.	New to backend and programming
+Intermediate	Projects with more complete features.	Those with basic experience seeking challenges
+Advanced	Challenging projects with complex architecture	Advanced developers looking to refine skills
+📚 How to use this repository
+Explore the folder of the preferred level (beginner/, intermediate/, advanced/).
 
-Sigue la guía de cada proyecto para configurar el entorno y correr la aplicación.
+Choose a project and clone it locally.
 
-Aprende con la documentación y ejemplo de código.
+Follow the guide of each project to set up the environment and run the application.
 
-¡Contribuye! Crea issues si encuentras errores o mejoras, y envía pull requests con nuevas ideas o soluciones.
+Learn with the documentation and code examples.
 
-🤝 ¿Quieres contribuir?
+Contribute! Create issues if you find bugs or improvements, and send pull requests with new ideas or solutions.
 
-Añade proyectos nuevos o mejora los existentes.
+🤝 Want to contribute?
+Add new projects or improve existing ones.
 
-Comparte buenas prácticas, documentación y recursos.
+Share best practices, documentation, and resources.
 
-Ayuda a otros en las discusiones.
+Help others in discussions.
 
-📬 Contacto
-Si tienes dudas, sugerencias o quieres colaborar, abre una issue o contáctanos por email: javierprofesionalwork@gmail.com
+📬 Contact
+If you have questions, suggestions, or want to collaborate, open an issue or contact us by email: javierprofesionalwork@gmail.com
 
-¡Gracias por ser parte de esta comunidad que aprende y crece junta!
+Thank you for being part of this community that learns and grows together!
+
